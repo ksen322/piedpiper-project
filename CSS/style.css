@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+ul,
+figure,
+a {
+    margin: 0;
+}
+
+.container {
+    min-width: 1219px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    height: 84px;
+    background-color: #007765;
+}
+
+.header-container {
+    width: 1110px;
+    height: 84px;
+    align-items: center;
+}
+
+.header-logo {
+    padding-left: 55px;
+    margin-right: auto;
+}
+
+.nav-list {
+    padding-right: 54px;
+}
+
+.header-list-item {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* .header {
+    position: relative;
+    height: 84px;
+    background: #007765;
+} */
+
+/* .header-logo {
+    display: inline-block;
+    padding: 20px 50px;
+} */
+
+/* .header-nav {
+    display: inline-block;
+}
+
+.nav-list {
+    padding: 0;
+    position: absolute;
+    top: 29px;
+    right: 64px;
+} */
+
+/* .header-list-item {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} */
+
+.main-page {
+    height: 403px;
+    background-image: url("../img/back1.jpg");
+    background-size: cover;
+}
+
+.main-title {
+    padding: 160px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.the-problem {
+    min-height: 719px;
+    background: #EEE;
+}
+
+.second-title {
+    text-align: center;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    /* padding: 48px 0 16px; */
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.the-problem-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote {
+    background-image: url("../img/back2.jpg");
+    height: 483px;
+    background-size: cover;
+}
+
+.quote-text {
+    width: 893px;
+    margin: 0 auto;
+    padding-top: 128px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.coin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    background: #FFF;
+}
+
+.ppc-logo {
+    float: left;
+    padding-right: 48px;
+    margin-bottom: 35px;
+}
+
+.coin-text {
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.without-img {
+    overflow: hidden;
+}
+
+.team {
+    height: 845px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EEE;
+}
+
+.team-list {
+    flex-wrap: wrap;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 82px 104px;
+}
+
+.team-list-item {
+    width: 299px;
+    height: 231px;
+    /* flex-basis: 33%; */
+    text-align: center;
+    flex-direction: column;
+}
+
+.name-list-item,
+.post-item {
+    margin: 0;
+}
+
+.team-img {
+    margin-bottom: 12px;
+}
+
+.name-list-item {
+    color: #007765;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.post-item {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    height: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #333;
+}
+
+.footer-text {
+    width: 540px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
